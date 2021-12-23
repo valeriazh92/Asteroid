@@ -1,0 +1,776 @@
+fileFormatVersion: 2
+guid: 366dfc5fe68a84bb09be64b413235f2e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2835556240852809441
+    second: eab516fda5cc1db7a7fa2f910f6b4673--enemies-minions-removebg-preview_0
+  - first:
+      213: 7529838737479502412
+    second: eab516fda5cc1db7a7fa2f910f6b4673--enemies-minions-removebg-preview_1
+  - first:
+      213: 4250759035225330746
+    second: eab516fda5cc1db7a7fa2f910f6b4673--enemies-minions-removebg-preview_2
+  - first:
+      213: 3790726187407876752
+    second: eab516fda5cc1db7a7fa2f910f6b4673--enemies-minions-removebg-preview_3
+  - first:
+      213: 8024881855694897665
+    second: eab516fda5cc1db7a7fa2f910f6b4673--enemies-minions-removebg-preview_4
+  - first:
+      213: 4727737335827589039
+    second: eab516fda5cc1db7a7fa2f910f6b4673--enemies-minions-removebg-preview_5
+  - first:
+      213: -3417514463927054733
+    second: eab516fda5cc1db7a7fa2f910f6b4673--enemies-minions-removebg-preview_6
+  - first:
+      213: -45783655039992217
+    second: eab516fda5cc1db7a7fa2f910f6b4673--enemies-minions-removebg-preview_7
+  - first:
+      213: 6008348591189589411
+    second: eab516fda5cc1db7a7fa2f910f6b4673--enemies-minions-removebg-preview_8
+  - first:
+      213: -9042105450786723178
+    second: eab516fda5cc1db7a7fa2f910f6b4673--enemies-minions-removebg-preview_9
+  - first:
+      213: -7597083507682599070
+    second: eab516fda5cc1db7a7fa2f910f6b4673--enemies-minions-removebg-preview_10
+  - first:
+      213: -1179610220370582211
+    second: eab516fda5cc1db7a7fa2f910f6b4673--enemies-minions-removebg-preview_11
+  - first:
+      213: -6008389506206428746
+    second: eab516fda5cc1db7a7fa2f910f6b4673--enemies-minions-removebg-preview_12
+  - first:
+      213: -7993300532883940180
+    second: eab516fda5cc1db7a7fa2f910f6b4673--enemies-minions-removebg-preview_13
+  - first:
+      213: -2012706349249905438
+    second: eab516fda5cc1db7a7fa2f910f6b4673--enemies-minions-removebg-preview_14
+  - first:
+      213: 9165919261818307345
+    second: eab516fda5cc1db7a7fa2f910f6b4673--enemies-minions-removebg-preview_15
+  - first:
+      213: 6646332869528441776
+    second: eab516fda5cc1db7a7fa2f910f6b4673--enemies-minions-removebg-preview_16
+  - first:
+      213: 4083345901324348727
+    second: eab516fda5cc1db7a7fa2f910f6b4673--enemies-minions-removebg-preview_17
+  - first:
+      213: -6331069939702861571
+    second: eab516fda5cc1db7a7fa2f910f6b4673--enemies-minions-removebg-preview_18
+  - first:
+      213: -3380316308229432262
+    second: eab516fda5cc1db7a7fa2f910f6b4673--enemies-minions-removebg-preview_19
+  - first:
+      213: -5991203464764910394
+    second: eab516fda5cc1db7a7fa2f910f6b4673--enemies-minions-removebg-preview_20
+  - first:
+      213: -4410290614513758841
+    second: eab516fda5cc1db7a7fa2f910f6b4673--enemies-minions-removebg-preview_21
+  - first:
+      213: -4152295851700130267
+    second: eab516fda5cc1db7a7fa2f910f6b4673--enemies-minions-removebg-preview_22
+  - first:
+      213: -6094180569772978778
+    second: eab516fda5cc1db7a7fa2f910f6b4673--enemies-minions-removebg-preview_23
+  - first:
+      213: -6988020316897991861
+    second: eab516fda5cc1db7a7fa2f910f6b4673--enemies-minions-removebg-preview_24
+  - first:
+      213: 2539190417714440063
+    second: eab516fda5cc1db7a7fa2f910f6b4673--enemies-minions-removebg-preview_25
+  - first:
+      213: -6517664300905770641
+    second: eab516fda5cc1db7a7fa2f910f6b4673--enemies-minions-removebg-preview_26
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: eab516fda5cc1db7a7fa2f910f6b4673--enemies-minions-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 303
+        width: 138
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e67caca06be95720800000000000000
+      internalID: 2835556240852809441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eab516fda5cc1db7a7fa2f910f6b4673--enemies-minions-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 308
+        width: 37
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4a017bdf6c5f7860800000000000000
+      internalID: 7529838737479502412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eab516fda5cc1db7a7fa2f910f6b4673--enemies-minions-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 306
+        width: 90
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a34536032dabdfa30800000000000000
+      internalID: 4250759035225330746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eab516fda5cc1db7a7fa2f910f6b4673--enemies-minions-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 309
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 092a731226d5b9430800000000000000
+      internalID: 3790726187407876752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eab516fda5cc1db7a7fa2f910f6b4673--enemies-minions-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 307
+        width: 31
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1020c25b78b1e5f60800000000000000
+      internalID: 8024881855694897665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eab516fda5cc1db7a7fa2f910f6b4673--enemies-minions-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 258
+        width: 138
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa7ea5dee0c4c9140800000000000000
+      internalID: 4727737335827589039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eab516fda5cc1db7a7fa2f910f6b4673--enemies-minions-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 263
+        width: 37
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37e4edaa3bc8290d0800000000000000
+      internalID: -3417514463927054733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eab516fda5cc1db7a7fa2f910f6b4673--enemies-minions-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 263
+        width: 90
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76e72d022085d5ff0800000000000000
+      internalID: -45783655039992217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eab516fda5cc1db7a7fa2f910f6b4673--enemies-minions-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 265
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3adf298c531f16350800000000000000
+      internalID: 6008348591189589411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eab516fda5cc1db7a7fa2f910f6b4673--enemies-minions-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 266
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69aeb38effcf38280800000000000000
+      internalID: -9042105450786723178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eab516fda5cc1db7a7fa2f910f6b4673--enemies-minions-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 211
+        width: 138
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26f99930dccb19690800000000000000
+      internalID: -7597083507682599070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eab516fda5cc1db7a7fa2f910f6b4673--enemies-minions-removebg-preview_11
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 214
+        width: 37
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d35246121ce21afe0800000000000000
+      internalID: -1179610220370582211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eab516fda5cc1db7a7fa2f910f6b4673--enemies-minions-removebg-preview_12
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 214
+        width: 90
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b19162f399ed9ca0800000000000000
+      internalID: -6008389506206428746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eab516fda5cc1db7a7fa2f910f6b4673--enemies-minions-removebg-preview_13
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 219
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cac13820487121190800000000000000
+      internalID: -7993300532883940180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eab516fda5cc1db7a7fa2f910f6b4673--enemies-minions-removebg-preview_14
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 219
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ec39c73d3e6114e0800000000000000
+      internalID: -2012706349249905438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eab516fda5cc1db7a7fa2f910f6b4673--enemies-minions-removebg-preview_15
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 160
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11347986103e33f70800000000000000
+      internalID: 9165919261818307345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eab516fda5cc1db7a7fa2f910f6b4673--enemies-minions-removebg-preview_16
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 164
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b3de33f7848c3c50800000000000000
+      internalID: 6646332869528441776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eab516fda5cc1db7a7fa2f910f6b4673--enemies-minions-removebg-preview_17
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 146
+        width: 33
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73d2c777675faa830800000000000000
+      internalID: 4083345901324348727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eab516fda5cc1db7a7fa2f910f6b4673--enemies-minions-removebg-preview_18
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 144
+        width: 66
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df07bdbee658328a0800000000000000
+      internalID: -6331069939702861571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eab516fda5cc1db7a7fa2f910f6b4673--enemies-minions-removebg-preview_19
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 89
+        width: 80
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3c56833a34b611d0800000000000000
+      internalID: -3380316308229432262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eab516fda5cc1db7a7fa2f910f6b4673--enemies-minions-removebg-preview_20
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 90
+        width: 33
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c419990138fadca0800000000000000
+      internalID: -5991203464764910394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eab516fda5cc1db7a7fa2f910f6b4673--enemies-minions-removebg-preview_21
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 22
+        width: 33
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78d0ba58d008bc2c0800000000000000
+      internalID: -4410290614513758841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eab516fda5cc1db7a7fa2f910f6b4673--enemies-minions-removebg-preview_22
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 22
+        width: 38
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52ee5153ce41066c0800000000000000
+      internalID: -4152295851700130267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eab516fda5cc1db7a7fa2f910f6b4673--enemies-minions-removebg-preview_23
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 22
+        width: 41
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ad08956f0f1d6ba0800000000000000
+      internalID: -6094180569772978778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eab516fda5cc1db7a7fa2f910f6b4673--enemies-minions-removebg-preview_24
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 22
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b432510cb80950f90800000000000000
+      internalID: -6988020316897991861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eab516fda5cc1db7a7fa2f910f6b4673--enemies-minions-removebg-preview_25
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 21
+        width: 39
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f77e1f05b340d3320800000000000000
+      internalID: 2539190417714440063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eab516fda5cc1db7a7fa2f910f6b4673--enemies-minions-removebg-preview_26
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 21
+        width: 41
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f615443b9da9c85a0800000000000000
+      internalID: -6517664300905770641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
