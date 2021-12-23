@@ -3,57 +3,58 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class PlayerController : MonoBehaviour, IBoundariesFinder
+public class PlayerController :  IBoundariesFinder
 {
+    private SpaceshipView spaceshipView;
     private PlayerAction playerAction;
     private float speed = 3.0f;
     private Vector2 minBoundaries, maxBoundaries;
-    private     Camera mainCam;
+    private Camera mainCam;
     
-
-
-
-    Vector2 Forward => Quaternion.Euler(0, 0, transform.rotation.z) * Vector3.right;
+    Vector2 Forward => Quaternion.Euler(0, 0, spaceshipView.transform.rotation.z) * Vector3.right;
     Vector2 Acceleration;
+
+    public PlayerController(SpaceshipView view)
+    {
+        spaceshipView = view;
+        Awake();
+    }
+
     private void Awake()
     {
         playerAction = new PlayerAction();
         playerAction.Player.Move.performed += Accelerate;
+        
         mainCam = Camera.main;
         CheckBoundaries();
-
     }
-    private void OnEnable()
+    public void OnEnable()
     {
         playerAction.Enable();
     }
-    private void OnDisable()
+    public void OnDisable()
     {
         playerAction.Disable();
     }
     private void Move()
     {
         Debug.Log("Move");
-        transform.Translate(Acceleration.x, Acceleration.y, 0f);
+        spaceshipView.transform.Translate(Acceleration.x, Acceleration.y, 0f);
         Decelerate();
     }
-    void Start()
-    {
-      
-    }
-
-    void Update()
+    
+    public void Update()
     {
 
         Move();
         CrossBoubdaries();
-        transform.Rotate(0, 0, speed * playerAction.Player.Look.ReadValue<Vector2>().x);
-
+        spaceshipView.transform.Rotate(0, 0, speed * playerAction.Player.Look.ReadValue<Vector2>().x);
+       
     }
     void Accelerate(InputAction.CallbackContext context)
     {
         Acceleration += Forward * (0.1f * Time.deltaTime);
-        Acceleration = Vector2.ClampMagnitude(Acceleration, 0.15f);
+        Acceleration = Vector2.ClampMagnitude(Acceleration, 0.30f);
     }
 
     void Decelerate()
@@ -70,10 +71,10 @@ public class PlayerController : MonoBehaviour, IBoundariesFinder
 
     public void CrossBoubdaries()
     {
-        if (transform.position.x > maxBoundaries.x) { transform.position = new Vector3(minBoundaries.x, transform.position.y, 0f); }
-        if (transform.position.x < minBoundaries.x) { transform.position = new Vector3(maxBoundaries.x, transform.position.y, 0f); }
-        if (transform.position.y > maxBoundaries.y) { transform.position = new Vector3(transform.position.x, minBoundaries.y, 0f); }
-        if (transform.position.y < minBoundaries.y) { transform.position = new Vector3(transform.position.x, maxBoundaries.y, 0f); }
+        if (spaceshipView.transform.position.x > maxBoundaries.x) { spaceshipView.transform.position = new Vector3(minBoundaries.x, spaceshipView.transform.position.y, 0f); }
+        if (spaceshipView.transform.position.x < minBoundaries.x) { spaceshipView.transform.position = new Vector3(maxBoundaries.x, spaceshipView.transform.position.y, 0f); }
+        if (spaceshipView.transform.position.y > maxBoundaries.y) { spaceshipView.transform.position = new Vector3(spaceshipView.transform.position.x, minBoundaries.y, 0f); }
+        if (spaceshipView.transform.position.y < minBoundaries.y) { spaceshipView.transform.position = new Vector3(spaceshipView.transform.position.x, maxBoundaries.y, 0f); }
     }
 }
  

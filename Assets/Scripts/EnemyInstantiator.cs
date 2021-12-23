@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class EnemyInstantiator : MonoBehaviour, IBoundariesFinder
 {
-    [SerializeField] private Asteroid asteroidPrefab;
+    [SerializeField] private AsteroidView asteroidPrefab;
+    private Asteroid aster;
+
     private Vector2 minBoundaries, maxBoundaries;
     private Camera mainCam;
     int spawnRand;
@@ -21,7 +23,7 @@ public class EnemyInstantiator : MonoBehaviour, IBoundariesFinder
     // Update is called once per frame
     void Update()
     {
-        
+       
     }
 
     public void CheckBoundaries()
@@ -40,22 +42,25 @@ public class EnemyInstantiator : MonoBehaviour, IBoundariesFinder
     private void SpawnEnemy()
     {
         var asteroid = Instantiate(asteroidPrefab, transform.position, Quaternion.identity);
+        var aster = new Asteroid(asteroid);
+        asteroid.CheckBoundaries();
         spawnRand = Random.Range(0, 3);
         if (spawnRand == 0)
         {
-            asteroid.RandomRotation("top");
+            asteroid.direction = aster.RandomRotation("top");
             asteroid.transform.position = new Vector3(Random.Range(minBoundaries.x, maxBoundaries.x), maxBoundaries.y, 0f);
         }
         else if(spawnRand == 1)
         {
-            asteroid.RandomRotation("down");
+            asteroid.direction = aster.RandomRotation("down");
             asteroid.transform.position = new Vector3(Random.Range(minBoundaries.x, maxBoundaries.x), minBoundaries.y, 0f);
         }
         else
         {
-            asteroid.RandomRotation("top");
+            asteroid.direction = aster.RandomRotation("top");
             asteroid.transform.position = new Vector3(maxBoundaries.x, Random.Range(minBoundaries.y, maxBoundaries.y), 0f);
         }
+        
     }
     IEnumerator Spawner()
     {

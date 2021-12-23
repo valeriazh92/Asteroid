@@ -2,28 +2,22 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Asteroid : Enemy
+public class Asteroid //: Enemy
 {
     float randx, randy;
     Vector2 randDirection;
+    private AsteroidView asteroidView;
 
-
-    public override void Initialize()
+    public Asteroid(AsteroidView view)
     {
-       
+        asteroidView = view;
     }
 
-    void Start()
+    public void Update()
     {
-        
+        asteroidView.Move(randDirection);
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        Move(randDirection);
-    }
-    public void RandomRotation(string place)
+    public Vector2 RandomRotation(string place)
     {
         if(place == "top")
         {
@@ -42,13 +36,7 @@ public class Asteroid : Enemy
         }
         randDirection = new Vector2(randx, randy);
         randDirection = Vector2.ClampMagnitude(randDirection, 0.05f);//change at speed
-
+        return randDirection;
     }
-    void AAAA()
-    {
-        //if (transform.position.x > maxBoundaries.x || transform.position.x < minBoundaries.x || transform.position.y > maxBoundaries.y || transform.position.y < minBoundaries.y)
-        //{
-
-        //}
-    }
+    
 }
